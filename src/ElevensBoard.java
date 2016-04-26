@@ -173,6 +173,14 @@ public class ElevensBoard {
 		}
 		return false;
 	}
+	
+
+	public static void printCards(ElevensBoard board) {
+		List<Integer> cIndexes = board.cardIndexes();  
+		for (int i : cIndexes) {
+			System.out.println((board.cardAt(i).toString()));
+		}
+	}
 
 	/**
 	 * Determines if the selected cards form a valid group for removal.
