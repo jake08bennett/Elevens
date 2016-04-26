@@ -3,7 +3,7 @@ Activity 7
 1. a rule book, a deck of cards, a score keeper.
 
 2. Is there a king queen and jack on the board? if yes match them all and replace the cards. 
-find any pair of cards which add up to 11, if found match them and replace them. if not found, game over.
+find any pair of cards which add up to 11, if found  choose first identified pair, match them and replace them. if not found, game over.
 
 3. It does but not all classes are implemented.
 
